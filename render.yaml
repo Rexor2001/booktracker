@@ -8,3 +8,6 @@ services:
  envVars:
       - key: MONGODB_URI
         sync: false
+        - key: API_BASE_URL
+        sync: false
+        value: 'https://booktracker-web.onrender.com'
