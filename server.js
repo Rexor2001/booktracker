@@ -26,7 +26,7 @@ if (!fs.existsSync('uploads')) {
 }
 
 // MongoDB Connection
-const MONGODB_URI = process.env.MONGODB_URI || mongodb+srv://Rexor:Rexor123@cluster0.n5fvg38.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://Rexor:Rexor123@cluster0.n5fvg38.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 console.log('Attempting to connect to MongoDB at:', MONGODB_URI);
 
 mongoose.connect(MONGODB_URI, {
