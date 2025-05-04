@@ -8,7 +8,7 @@ const app = express();
 
 // CORS Configuration
 app.use(cors({
-    origin: 'http://localhost:3001',
+    origin: 'https://booktracker-web.onrender.com';
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization']
