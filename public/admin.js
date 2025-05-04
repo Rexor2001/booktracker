@@ -1,5 +1,5 @@
 // admin.js
-const API_BASE_URL = 'http://localhost:3001';
+const API_BASE_URL = 'https://booktracker-web.onrender.com';
 const adminPanel = document.getElementById('admin-panel');
 const logoutLink = document.getElementById('logout-link');
 
